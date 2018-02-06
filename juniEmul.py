@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 '''
 JuniEmu - emulator interface for ARM 32-bit. 
 
@@ -2723,3 +2725,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    

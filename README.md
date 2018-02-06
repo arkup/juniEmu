@@ -53,7 +53,7 @@ To switch into thumb mode provide unaligned address (add +1 to the destination a
 ### Issues
 
 - Not tested with Python 3
-- Not fully tested on Windwos, MacOS
+- Not fully tested on Windows, MacOS
 - Input server will freeze the UI until until receiving bytes from the client
 
 ### Dependencies (Python bindings)
