@@ -1,11 +1,11 @@
 
 ### Overview
 
-**JuniEmu** is an emulator interface for ARM 32-bit. 
+**JuniEmu** is an emulator interface designed for ARM 32-bit. 
 
-JuniEmu is using Unicorn framework for emulation, Capstone disassembly framework and Python's standard GUI (Graphical User Interface) package - Tkinter.
+JuniEmu is using Unicorn framework for emulation, Capstone disassembly framework and Python's standard GUI package - Tkinter.
 
-The goal of the project was to visual emulate (single step, breakpoint, memory view\edit) raw ARM binaries (bootloaders, embedded firmware, standalone functions etc).
+The goal of the project was to visually emulate (single step, breakpoint, memory view\edit) raw ARM binaries (bootloaders, embedded firmware, standalone functions, etc).
 
 ![](./screenshots/juniEmul.png)
 
@@ -58,6 +58,6 @@ To switch into thumb mode provide unaligned address (add +1 to the destination a
 
 ### Dependencies (Python bindings)
 
-- TkInter GUI (Graphical User Interface) package (on Ubuntu: sudo apt-get install python-tk)
+- python TkInter (`sudo apt-get install python-tk`)
 - Capstone https://github.com/aquynh/capstone
 - Unicorn https://github.com/unicorn-engine/unicorn
